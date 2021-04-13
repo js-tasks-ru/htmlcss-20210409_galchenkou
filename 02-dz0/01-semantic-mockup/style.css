@@ -1,0 +1,54 @@
+html {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+header {
+    background-color: cadetblue;
+    margin: 20px;
+    padding: 30px;
+}
+
+nav {
+    background-color: darkcyan;
+    padding: 20px;
+}
+
+nav a:not(:last-child) {
+    margin-right: 10px;
+}
+
+main {
+    background-color: lightgray;
+    margin: 20px;
+    padding: 30px;
+}
+
+article {
+    background-color: darkgray;
+    padding: 20px 30px;
+}
+
+article:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: grey;
+    margin: 20px;
+    padding: 30px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
