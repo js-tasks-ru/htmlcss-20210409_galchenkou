@@ -1,1 +1,116 @@
 /* Стилизация кнопки */
+
+.buttons-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.buttons-section__item {
+    width: 737px;
+}
+
+.buttons-section__item_title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 46px;
+    color: var(--color-black);
+}
+
+.buttons {
+
+}
+
+.buttons__row {
+
+}
+
+.buttons-box {
+    display: flex;
+    align-items: baseline;
+}
+
+.buttons-box__item_text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: var(--color-light-grey);
+    text-transform: uppercase;
+    margin-right: auto;
+}
+
+.buttons-box__item_btn {
+    margin: 0 16px 16px 16px;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--color-grey);
+    background: none;
+    width: 182px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.button_primary {
+    color: var(--color-white);
+    background-color: var(--color-light-blue);
+}
+
+.button_secondary {
+    color: var(--color-white);
+    background-color: var(--color-light-purple);
+}
+
+.button_alternate {
+    border: 1px solid var(--color-light-grey);
+}
+
+.button_primary:hover {
+    background-color: var(--color-blue);
+}
+
+.button_secondary:hover {
+    background-color: var(--color-purple);
+}
+
+.button_alternate:hover {
+    border: 1px solid var(--color-black);
+}
+
+.button_primary_hovered {
+    color: var(--color-white);
+    background-color: var(--color-blue);
+}
+
+.button_secondary_hovered {
+    color: var(--color-white);
+    background-color: var(--color-purple);
+}
+
+.button_alternate_hovered {
+    border: 1px solid var(--color-black);
+}
+
+.button_primary_disabled {
+    opacity: 0.5;
+}
+
+.button_secondary_disabled {
+    opacity: 0.5;
+}
+
+.button_alternate_disabled {
+    opacity: 0.5;
+}

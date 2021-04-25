@@ -3,9 +3,33 @@
 <html lang="ru">
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="../../assets/css/normalize.css">
+        <link rel="stylesheet" href="../../components/page/page.css">
         <link rel="stylesheet" href="./button.css">
     </head>
-    <body>
-
+    <body class="page">
+        <section class="buttons-section page__box">
+            <h2 class="buttons-section__item buttons-section__item_title">Buttons</h2>
+            <div class="buttons buttons-section__item">
+                <div class="buttons-box buttons__row">
+                    <p class="buttons-box__item buttons-box__item_text">Default</p>
+                    <button class="button button_primary buttons-box__item buttons-box__item_btn">Primary</button>
+                    <button class="button button_secondary buttons-box__item buttons-box__item_btn">Secondary</button>
+                    <button class="button button_alternate buttons-box__item buttons-box__item_btn">Alternate</button>
+                </div>
+                <div class="buttons-box buttons__row">
+                    <p class="buttons-box__item buttons-box__item_text">Hover</p>
+                    <button class="button button_primary button_primary_hovered buttons-box__item buttons-box__item_btn">Primary</button>
+                    <button class="button button_secondary button_secondary_hovered buttons-box__item buttons-box__item_btn">Secondary</button>
+                    <button class="button button_alternate button_alternate_hovered buttons-box__item buttons-box__item_btn">Alternate</button>
+                </div>
+                <div class="buttons-box buttons__row">
+                    <p class="buttons-box__item buttons-box__item_text">Disabled</p>
+                    <button class="button button_primary button_primary_disabled buttons-box__item buttons-box__item_btn">Primary</button>
+                    <button class="button button_secondary button_secondary_disabled buttons-box__item buttons-box__item_btn">Secondary</button>
+                    <button class="button button_alternate button_alternate_disabled buttons-box__item buttons-box__item_btn">Alternate</button>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
