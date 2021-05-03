@@ -4,3 +4,19 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+
+:root {
+    --color-black: #212429;
+    --color-light-blue: #4263EB;
+    --color-blue: #2342C0;
+    --color-light-purple: #7048E8;
+    --color-purple: #5028C6;
+    --color-light-grey: #ACB5BD;
+    --color-grey: #495057;
+    --color-white: #FFF;
+}
+
+button {
+    border: none;
+    outline: none;
+}

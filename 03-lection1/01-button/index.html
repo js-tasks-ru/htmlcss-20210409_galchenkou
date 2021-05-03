@@ -3,9 +3,69 @@
 <html lang="ru">
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="../../assets/css/normalize.css">
+        <link rel="stylesheet" href="../../components/page/page.css">
         <link rel="stylesheet" href="./button.css">
+        <style>
+            .buttons-section {
+                display: flex;
+                justify-content: space-between;
+                padding-top: 20px;
+            }
+            .buttons-section__item {
+                width: 737px;
+            }
+            .buttons-section__item_title {
+                font-family: 'Inter', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 38px;
+                line-height: 46px;
+                color: var(--color-black);
+            }
+            .buttons-box {
+                display: flex;
+                align-items: baseline;
+            }
+            .buttons-box__item-text {
+                font-family: 'Inter', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 18px;
+                letter-spacing: 0.04em;
+                color: var(--color-light-grey);
+                text-transform: uppercase;
+                margin-right: auto;
+            }
+            .buttons-box__item-btn {
+                margin: 0 16px 16px 16px;
+            }
+        </style>
     </head>
-    <body>
-
+    <body class="page">
+        <section class="buttons-section page__box">
+            <h2 class="buttons-section__item buttons-section__item_title">Buttons</h2>
+            <div class="buttons buttons-section__item">
+                <div class="buttons-box buttons__row">
+                    <p class="buttons-box__item buttons-box__item-text">Default</p>
+                    <button class="button button_primary buttons-box__item buttons-box__item-btn">Primary</button>
+                    <button class="button button_secondary buttons-box__item buttons-box__item-btn">Secondary</button>
+                    <button class="button button_alternate buttons-box__item buttons-box__item-btn">Alternate</button>
+                </div>
+                <div class="buttons-box buttons__row">
+                    <p class="buttons-box__item buttons-box__item-text">Hover</p>
+                    <button class="button button_primary buttons-box__item buttons-box__item-btn">Primary</button>
+                    <button class="button button_secondary buttons-box__item buttons-box__item-btn">Secondary</button>
+                    <button class="button button_alternate buttons-box__item buttons-box__item-btn">Alternate</button>
+                </div>
+                <div class="buttons-box buttons__row">
+                    <p class="buttons-box__item buttons-box__item-text">Disabled</p>
+                    <button class="button button_primary buttons-box__item buttons-box__item-btn" disabled>Primary</button>
+                    <button class="button button_secondary buttons-box__item buttons-box__item-btn" disabled>Secondary</button>
+                    <button class="button button_alternate buttons-box__item buttons-box__item-btn" disabled>Alternate</button>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
