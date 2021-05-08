@@ -14,10 +14,6 @@
     align-items: center;
 }
 
-.skeleton__body {
-
-}
-
 .skeleton__avatar {
     width: 64px;
     height: 64px;
@@ -26,12 +22,8 @@
     border-radius: 50%;
 }
 
-.skeleton-header_rows {
-    flex-basis: 257px;
-}
-
 .skeleton-rows {
-
+    flex-grow: 1;
 }
 
 .skeleton-rows__item {
@@ -44,13 +36,13 @@
 }
 
 .skeleton-row_sm {
-    width: 172px;
+    width: 40%;
 }
 
 .skeleton-row_md {
-    width: 257px;
+    width: 60%;
 }
 
 .skeleton-row_lg {
-    width: 515px;
+    width: 100%;
 }
