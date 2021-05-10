@@ -1,0 +1,48 @@
+.skeleton {
+    width: 579px;
+    height: 192px;
+    padding: 24px 40px 32px 24px;
+    background: var(--color-white);
+    border: 1px solid var(--color-light-grey);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.skeleton__header {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.skeleton__avatar {
+    width: 64px;
+    height: 64px;
+    margin-right: 16px;
+    background: var(--color-light-grey-secondary);
+    border-radius: 50%;
+}
+
+.skeleton-rows {
+    flex-grow: 1;
+}
+
+.skeleton-rows__item {
+    height: 20px;
+    background: var(--color-light-grey-secondary);
+}
+
+.skeleton-rows__item:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.skeleton-row_sm {
+    width: 40%;
+}
+
+.skeleton-row_md {
+    width: 60%;
+}
+
+.skeleton-row_lg {
+    width: 100%;
+}
