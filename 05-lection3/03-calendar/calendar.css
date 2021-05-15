@@ -24,7 +24,7 @@
     position: relative;
 }
 
-.calendar-items__box {
+.calendar__box {
     position: absolute;
     top: 0;
     right: 0;
