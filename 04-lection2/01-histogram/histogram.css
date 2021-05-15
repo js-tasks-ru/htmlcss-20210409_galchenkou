@@ -16,21 +16,21 @@
     justify-content: space-between;
 }
 
-.histogram-item__title {
+.histogram__header-title {
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
     color: var(--color-black);
 }
 
-.histogram-title__text {
+.histogram__header-text {
     margin-bottom: 6px;
     font-size: 16px;
     line-height: 24px;
     opacity: 0.8;
 }
 
-.histogram-title__numbers {
+.histogram__header-numbers {
     font-size: 20px;
     line-height: 26px;
 }
@@ -51,11 +51,11 @@
     align-items: flex-end;
 }
 
-.histogram-item__bar {
+.histogram__body-bar {
     width: 9px;
     background: var(--color-light-blue);
 }
 
-.histogram-item__bar:not(:last-child) {
+.histogram__body-bar:not(:last-child) {
     margin-right: 1px;
 }
