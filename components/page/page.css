@@ -1,13 +1,30 @@
 .page {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    /*grid-template-rows: 11.46% 1fr 12.62%;*/
+    grid-template-rows: auto 1fr auto;
 }
 
 .page__box {
     max-width: 1110px;
+    width: 100%;
     margin: auto;
 }
 
+.page__header {
+    padding: 25px 0 63px;
+}
+
 .page__main {
-    flex-grow: 1;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 56px;
+    height: 100%;
+}
+
+.page__footer {
+
+}
+
+.page__sidebar {
+    width: 229px;
 }
