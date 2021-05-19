@@ -18,6 +18,10 @@
     --color-background-grey: #F9FAFC;
 }
 
+html, body {
+    height: 100%;
+}
+
 button {
     border: none;
     outline: none;
