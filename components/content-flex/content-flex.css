@@ -15,7 +15,16 @@
     /*width: 33.33%;*/
     flex-basis: 350px;
     margin: 15px;
+    padding: 25px;
     background: var(--color-white);
     box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
     border-radius: 12px;
+}
+
+.card__preview {
+
+}
+
+.card__title {
+
 }
