@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 768px) {
     .page__box {
-        max-width: 360px;
+        padding: 0 15px;
     }
 
     .header {
