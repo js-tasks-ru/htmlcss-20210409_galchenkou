@@ -9,13 +9,3 @@
     /*gap: 30px;*/
     margin: 0 -15px;
 }
-
-.content-flex__card {
-    height: 367px;
-    /*width: 33.33%;*/
-    flex-basis: 350px;
-    margin: 15px;
-    background: var(--color-white);
-    box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
-    border-radius: 12px;
-}

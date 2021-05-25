@@ -3,6 +3,7 @@
 * {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -16,6 +17,9 @@
     --color-grey: #495057;
     --color-white: #FFF;
     --color-background-grey: #F9FAFC;
+    --breakpoint-sm: 375px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
 }
 
 html, body {
